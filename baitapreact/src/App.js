@@ -3,6 +3,7 @@ import "./App.css";
 import BaiTapChonXe from "./BaiTapChonMauXe/BaiTapChonXe";
 import BaiTapLayoutComponent from "./BaiTapLayoutComponent /BaiTapLayoutComponent ";
 import BtDoiMauKinh from "./BaiTapDoiMauKinh/BtDoiMauKinh";
+import BaiTapOanTuXi from "./BaiTapRedux/BaiTapOanTuXi/BaiTapOanTuXi";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       <br />
       <hr /> */}
 
-      <BtDoiMauKinh />
+      {/* <BtDoiMauKinh /> */}
+      <BaiTapOanTuXi />
     </div>
   );
 }
