@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import { datCuoc } from "../../redux/actions/BaiTapOanTuXiAction";
 
 class Player extends Component {
   render() {
@@ -69,10 +70,7 @@ const mapStateToProps = (rootReducer) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     datCuoc: (maCuoc) => {
-      dispatch({
-        type: "CHON_KEO_BUA_BAO",
-        maCuoc,
-      });
+      dispatch(datCuoc(maCuoc));
     },
   };
 };

@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // gan store vao app
 import { Provider } from "react-redux";
-import { store } from "./redux/configStore";
+import { store } from "./redux/reducer/configStore";
 ReactDOM.render(
   <Provider store={store}>
     <App />

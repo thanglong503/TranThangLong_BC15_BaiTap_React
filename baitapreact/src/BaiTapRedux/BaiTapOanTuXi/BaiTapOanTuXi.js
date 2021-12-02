@@ -4,6 +4,7 @@ import Computer from "./Computer";
 import KetQuaTroChoi from "./KetQuaTroChoi";
 import Player from "./Player";
 import { connect } from "react-redux";
+import { END_GAME, RAN_DOM } from "../../redux/types/BaiTapOanTuXiType";
 
 class BaiTapOanTuXi extends Component {
   render() {
@@ -40,14 +41,14 @@ const mapDispatchToProps = (dispatch) => {
       let count = 0;
       let randomComputerItem = setInterval(() => {
         dispatch({
-          type: "RAN_DOM",
+          type: RAN_DOM,
         });
         count++;
         if (count >= 10) {
           // dung lai vong lap
           clearInterval(randomComputerItem);
           dispatch({
-            type: "END_GAME",
+            type: END_GAME,
           });
         }
       }, 100);

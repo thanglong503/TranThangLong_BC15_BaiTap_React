@@ -4,6 +4,7 @@ import BaiTapChonXe from "./BaiTapChonMauXe/BaiTapChonXe";
 import BaiTapLayoutComponent from "./BaiTapLayoutComponent /BaiTapLayoutComponent ";
 import BtDoiMauKinh from "./BaiTapDoiMauKinh/BtDoiMauKinh";
 import BaiTapOanTuXi from "./BaiTapRedux/BaiTapOanTuXi/BaiTapOanTuXi";
+import BaiTapBookingTicket from "./BaiTapRedux/BaiTapBookingTicket/BaiTapBookingTicket";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
 
       {/* <BtDoiMauKinh /> */}
       <BaiTapOanTuXi />
+      {/* <BaiTapBookingTicket /> */}
     </div>
   );
 }
