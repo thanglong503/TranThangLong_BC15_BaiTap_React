@@ -23,8 +23,8 @@ function App() {
       <hr /> */}
 
       {/* <BtDoiMauKinh /> */}
-      <BaiTapOanTuXi />
-      {/* <BaiTapBookingTicket /> */}
+      {/* <BaiTapOanTuXi /> */}
+      <BaiTapBookingTicket />
     </div>
   );
 }
